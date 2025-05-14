@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Le grey</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- CSS
+        ============================================ -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Icon Font CSS -->
+    <link rel="stylesheet" href="assets/css/icons.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Modernizer JS -->
+    <script src="assets/js/vendor/modernizr-3.11.7.min.js"></script>
+</head>
+
+<body>
+
+    <!-- navigation -->
+    <header class="container">
+        <nav class="navbar navbar-expand-lg py-0">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="logo.png" alt="" class="img-fluid me-lg-2"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="settings-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse  p-0 m-0" id="navbarNav" height="100%">
+                    <ul class="navbar-nav me-auto  mb-lg-0 ms-lg-3 p-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link navlink active mx-lg-2 mx-xl-4 active" aria-current="page"
+                                href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item p-0 m-0  dropdown" id="dropdown">
+                            <a class="nav-link mx-lg-2 mx-xl-4 product_nav-link" id="dropdownlink">
+                                Product
+                            </a>
+
+                            <!-- product dropdown -->
+                            <ul class="dropdown-menu px-lg-5 px-3 mt-2" aria-labelledby="navbarDropdown">
+                                <li class="d-flex flex-lg-row flex-column">
+
+                                    <!-- Category_1 -->
+                                    <ul class="py-2 py-lg-0 category" aria-labelledby="navbarDropdown">
+                                        <li class="category_list">
+                                            <h6 class="px-1 fw-semibold py-1 product_toggle_Button  d-flex justify-content-between"
+                                                data-target="div1">Category_1 <i
+                                                    class="bi bi-chevron-compact-down icon"></i>
+                                            </h6>
+                                            <!-- products -->
+                                            <ul id="div1" class="product_hide product_div border-top" id="product">
+                                                <li class="my-2"><a class="dropdown-item px-3" href="#">One Piece</a>
+                                                </li>
+                                                <li class="my-2"><a class="dropdown-item px-3" href="#">Wall Hung</a>
+                                                </li>
+                                                <li class="my-2"><a class="dropdown-item px-3" href="#">Closets</a></li>
+                                                <li class="my-2"><a class="dropdown-item px-3" href="#">Table Top
+                                                        Basin</a></li>
+                                                <li class="my-2"><a class="dropdown-item px-3" href="#">Wall Hung
+                                                        Basin</a></li>
+                                                <li class="my-2"><a class="dropdown-item px-3" href="#">Pan & Urinal</a>
+                                                </li>
+                                            </ul>
+                                            <!-- products -->
+                                        </li>
+                                    </ul>
+                                    <!-- Category_1 -->
+
+                                    <!-- Category_2 -->
+                                    <ul class="ps-lg-5 py-2 py-lg-0 category" aria-labelledby="navbarDropdown">
+                                        <li class="category_list">
+                                            <h6 class="px-1 fw-semibold py-1 product_toggle_Button d-flex justify-content-between"
+                                                data-target="div2">Category_2 <i
+                                                    class="bi bi-chevron-compact-down icon"></i>
+                                            </h6>
+                                            <!-- products -->
+                                            <ul id="div2" class="product_hide product_div border-top">
+                                                <li class="my-2"><a class="dropdown-item px-3" href="#">One Piece</a>
+                                                </li>
+                                                <li class="my-2"><a class="dropdown-item px-3" href="#">Wall Hung</a>
+                                                </li>
+                                                <li class="my-2"><a class="dropdown-item px-3" href="#">Closets</a></li>
+                                                <li class="my-2"><a class="dropdown-item px-3" href="#">Table Top
+                                                        Basin</a></li>
+                                                <li class="my-2"><a class="dropdown-item px-3" href="#">Wall Hung
+                                                        Basin</a></li>
+                                                <li class="my-2"><a class="dropdown-item px-3" href="#">Pan & Urinal</a>
+                                                </li>
+                                            </ul>
+                                            <!-- products -->
+                                        </li>
+                                    </ul>
+                                    <!-- Category_2 -->
+
+                                    <!-- Category_3 -->
+                                    <ul class="ps-lg-5 py-2 py-lg-0 category" aria-labelledby="navbarDropdown">
+                                        <li class="category_list">
+                                            <h6 class="px-1 fw-semibold py-1 product_toggle_Button d-flex justify-content-between"
+                                                data-target="div3">Category_3 <i
+                                                    class="bi bi-chevron-compact-down icon"></i>
+                                            </h6>
+                                            <!-- products -->
+                                            <ul id="div3" class="product_hide product_div border-top">
+
+                                                <li class="my-2"><a class="dropdown-item px-3" href="#">One Piece</a>
+                                                </li>
+
+                                                <li class="my-2"><a class="dropdown-item px-3" href="#">Wall Hung</a>
+                                                </li>
+                                                <li class="my-2"><a class="dropdown-item px-3" href="#">Closets</a></li>
+                                                <li class="my-2"><a class="dropdown-item px-3" href="#">Table Top
+                                                        Basin</a></li>
+                                                <li class="my-2"><a class="dropdown-item px-3" href="#">Wall Hung
+                                                        Basin</a></li>
+                                                <li class="my-2"><a class="dropdown-item px-3" href="#">Pan & Urinal</a>
+                                                </li>
+                                            </ul>
+                                            <!-- products -->
+                                        </li>
+                                    </ul>
+                                    <!-- Category_3 -->
+                                </li>
+                            </ul>
+                            <!-- product dropdown -->
+
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link navlink mx-lg-2 mx-xl-4" href="about.html">About Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link navlink mx-lg-2 mx-xl-4" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex search_box my-2 pb-lg-1 my-lg-0">
+                        <input class="form-search" type="text" name="text" placeholder="Search Products..."
+                            aria-label="Search">
+                        <button class="src_prdt_btn" type="submit"><i class="fas fa-search text-white"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- navigation -->
+
+    <main class="maindivision">
+        <!-- hero banner -->
+        <section class="banner_division">
+
+            <div id="carouselExampleFade" class="carousel slide carousel-fade ">
+
+                <div class="carousel-inner ">
+
+                    <div class="carousel-item active">
+                        <img src="assets/img/hero_banner/img1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/hero_banner/img2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/hero_banner/img3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+
+
+
+
+                <div class="hero_banner">
+                    <div class="d-flex flex-column container pt-lg-5 pt-sm-3 pb-sm-0 pb-2">
+
+                        <div class="caption text-start col-lg-7 col-12 mx-auto mx-lg-0 pt-5 ps-2 ps-lg-0">
+
+                            <h2 class="text-white ">Bring Your Dream <span id="banner_span">Bathroom</span> to Reality
+                            </h2>
+                            <p class="pb-4 ">With years of experience and a passion for design, we specialize in
+                                creating
+                                stunning kitchens</p>
+
+
+                        </div>
+
+                        <div class="d-flex banner_btn ps-2 ps-lg-0">
+                            <a class="btn text-white my-3 rounded-pill d-flex justify-content-between "
+                                href="product.html" role="button">Explore Now <i
+                                    class="ps-1 bi-chevron-right fw-bold"></i>
+                            </a>
+                            <div class="align-self-end justify-content-lg-end d-flex ms-auto p-lg-2 p-1 arrows">
+
+                                <div class="arrow_div rounded-circle p-sm-3 p-2  mx-2 " type="button"
+                                    data-bs-target="#carouselExampleFade" data-bs-slide="prev"><i
+                                        class="bi bi-chevron-left fs-lg-5 fs-6"></i></div>
+
+                                <div class="arrow_div rounded-circle p-sm-3 p-2  mx-2 " type="button"
+                                    data-bs-target="#carouselExampleFade" data-bs-slide="next"><i
+                                        class="bi bi-chevron-right fs-lg-5 fs-6"></i></div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- hero banner -->
+
+        <!-- why choose us -->
+        <section class="about_us">
+            <div class="container py-5">
+                <div class="mx-auto row">
+
+                    <div class="col-xl-7 col-10 mx-auto me-lg-5  mt-lg-5  ps-lg-0  pe-lg-5">
+                        <img src="assets/img/banner/whychooseus.png" alt="" class="img-fluid  rounded-3">
+                    </div>
+                    <div class="col-xl-4 col-12  pe-lg-0 ps-0  ms-lg-auto mt-5 mx-auto mx-xl-0">
+                        <h2 class="fw-bold">Why choose us ?</h2>
+
+                        <div class="d-flex flex-column">
+
+                            <div class="my-2">
+
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/img/grade1.png" alt="" class="me-2">
+                                    <h4 class="ms-1">High Quality Services</h4>
+                                </div>
+
+                                <p class="mx-5 ps-3">Emphasis on premium materials and craftsmanship.
+
+
+                                </p>
+                            </div>
+
+                            <div class="my-2">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/img/ratingstar.png" alt="" class="me-3">
+                                    <h4>10 Years of Experience</h4>
+                                </div>
+                                <p class="mx-5 ps-3 ">A decade of expertise in the sanitary ware industry.
+
+
+                                </p>
+                            </div>
+
+                            <div class="my-2">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/img/customer.png" alt="" class="me-3">
+                                    <h4>150+ Happy customers</h4>
+                                </div>
+
+                                <p class="mx-5 ps-3">Established a loyal customer base with 150 satisfied clients.
+
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- why choose us -->
+
+        <!-- new collections -->
+        <section class="new_collection my-1">
+            <div class="container">
+                <div class="row ps-2 ps-lg-0">
+                    <div class="col-lg-4 ">
+                        <h2 class=" my-1 fw-bold">New collection</h2>
+                        <p>Bathroom Specialists</p>
+                        <a href="product.php"
+                            class="btn btn-primary rounded-pill px-lg-4 py-lg-2 mt-lg-2 my-1 my-lg-0">Explore Now
+                            &#8594;</a>
+                    </div>
+                    <div class="col-lg-7 col-12 pt-2">
+                        <p class="">The bathroom becomes an oasis of luxury with our collections crafted from around the
+                            world.
+                            Fireclay sinks add timeless style, bathtubs of understated beauty become centerpieces,
+                            showers
+                            and faucets in a plethora of styles perform brilliantly</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-2 container">
+
+                <div class="row justify-content-between mt-3">
+                    <a class="col-sm-4 col-5 my-2 my-lg-0 mx-auto  ps-1 pe-1"><img
+                            src="assets/img/newcollections/img1.png" class="d-block img-fluid" alt=""></a>
+
+                    <a class="col-sm-4 col-5 my-2 my-lg-0 mx-auto ps-1 pe-1"><img
+                            src="assets/img/newcollections/img2.png" class="d-block img-fluid" alt=""></a>
+
+                    <a class="col-sm-4 col-5 my-2 my-lg-0 mx-auto ps-1 pe-1"><img
+                            src="assets/img/newcollections/img3.png" class="d-block img-fluid" alt=""></a>
+                </div>
+
+
+            </div>
+        </section>
+        <!-- new collections -->
+
+        <!-- banner2 -->
+        <section class="banner2">
+            <div class="container py-5">
+                <div class="mx-auto row">
+                    <div class="col-lg-4 col-11  align-self-center  me-lg-5 ps-lg-0  mt-lg-5 mx-lg-auto"
+                        data-aos="fade-right" data-aos-duration="1000">
+                        <h2 class="fw-bold " data-aos="fade-right">Rejuvenation at its best</h2>
+                        <p class="">Rejuvenate your soul with Parryware exclusive range of whirlpools, Bathtubs and
+                            shower Panels.</p>
+                        <a href="" class="btn btn-primary rounded-pill px-4 py-2 mt-4">Explore Now &#8594;</a>
+                    </div>
+
+                    <div class="col-lg-7 col-12  ms-lg-auto mx-auto mx-lg-0  mt-5 mt-lg-0 pe-lg-0  " data-aos="fade-up"
+                        data-aos-duration="1000"><img src="assets/img/banner/img1.png" alt=""
+                            class="img-fluid ms-lg-5 rounded-3 "></div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- banner2 -->
+
+        <!-- banner3 -->
+        <section class="banner3">
+            <div class="container py-5">
+                <div class="mx-auto row">
+
+                    <div class="col-lg-7 col-12 me-lg-5  mt-lg-5  ps-lg-0 " data-aos="zoom-in" data-aos-duration="1000">
+                        <img src="assets/img/banner/img2.png" alt="" class="img-fluid rounded-3"></div>
+
+
+
+                    <div class="col-lg-4 col-11 align-self-center pe-lg-0  ms-lg-auto  mt-lg-0 mt-5" data-aos="zoom-out"
+                        data-aos-duration="1000">
+                        <h2 class="fw-bold ">Where Luxury Meets Comfort</h2>
+                        <p class="">Luxury is at the heart of everything we do. From the finest materials to meticulous
+                            craftsmanship, our products are designed to exude elegance and sophistication.</p>
+                        <a href="" class="btn btn-primary rounded-pill px-4 py-2 mt-4">Explore Now &#8594;</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- banner3 -->
+
+        <!-- banner4 -->
+        <section class="banner4">
+            <div class="container py-5">
+                <div class="mx-auto row">
+                    <div class="col-lg-4 col-11 align-self-center  me-lg-5 ps-lg-0 mt-lg-0 mt-lg-5 mx-lg-auto "
+                        data-aos="zoom-in-left" data-aos-duration="1000">
+                        <h2 class="fw-bold ">Where Luxury Meets Comfort</h2>
+                        <p class="">Luxury is at the heart of everything we do. From the finest materials to meticulous
+                            craftsmanship, our products are designed to exude elegance and sophistication.</p>
+                        <a href="" class="btn btn-primary rounded-pill px-4 py-2 mt-4">Explore Now &#8594;</a>
+                    </div>
+
+                    <div class="col-lg-7 col-12  ms-lg-auto mx-auto mx-lg-0  mt-5 mt-lg-0 pe-lg-0"
+                        data-aos="zoom-in-right" data-aos-duration="1000"><img src="assets/img/banner/img3.png" alt=""
+                            class="img-fluid ms-lg-5 rounded-3"></div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- banner4 -->
+
+        <!-- testimonial -->
+        <section class="testimonial">
+            <h2 class="text-center my-1 fw-bold">Testimonials</h2>
+            <h3 class="text-center mb-5 text-white">Hear what our clients say</h3>
+            <div class="d-flex justify-content-center align-items-center mt-1" data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+                <div class="slide-container swiper ">
+                    <div class="slide-content ">
+                        <div class="card-wrapper swiper-wrapper ">
+                            <!-- card-1 -->
+                            <div class="cardbox p-0 swiper-slide">
+                                <div class="image-content d-flex flex-column align-items-center">
+
+
+                                    <div class="d-flex ">
+                                        <img src="assets/img/testimonial/img1.png" alt="" class="img-fluid card-image">
+                                        <div class="align-self-center ms-3">
+                                            <p class="name">Lora Smith</p>
+                                            <img src="assets/img/testimonial/stars.png" alt="img-fluid card-image">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-content d-flex flex-column align-items-center">
+
+                                    <p class="description pb-3">It is a long established fact that a reader will be
+                                        distracted
+                                        by the readable content of a page when looking at its layout.</p>
+
+
+                                </div>
+                            </div>
+                            <!-- card-2 -->
+                            <div class="cardbox p-0 swiper-slide">
+                                <div class="image-content d-flex flex-column align-items-center">
+
+
+                                    <div class="d-flex ">
+                                        <img src="assets/img/testimonial/img2.png" alt="" class="img-fluid card-image">
+                                        <div class="align-self-center ms-3">
+                                            <p class="name">Lora Smith</p>
+                                            <img src="assets/img/testimonial/stars.png" alt="img-fluid card-image">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-content d-flex flex-column align-items-center">
+
+                                    <p class="description pb-3">It is a long established fact that a reader will be
+                                        distracted
+                                        by the readable content of a page when looking at its layout.</p>
+
+
+                                </div>
+                            </div>
+                            <!-- card-3 -->
+                            <div class="cardbox p-0 swiper-slide">
+                                <div class="image-content d-flex flex-column align-items-center">
+
+                                    <div class="d-flex ">
+                                        <img src="assets/img/testimonial/Img3.png" alt="" class="img-fluid card-image">
+                                        <div class="align-self-center ms-3">
+                                            <p class="name">Lora Smith</p>
+                                            <img src="assets/img/testimonial/stars.png" alt="img-fluid card-image">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-content d-flex flex-column align-items-center">
+
+                                    <p class="description pb-3">It is a long established fact that a reader will be
+                                        distracted
+                                        by the readable content of a page when looking at its layout.</p>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="swiper-button-next swiper-navBtn d-flex justify-content-center align-items-center fw-bold">
+                    </div>
+                    <div
+                        class="swiper-button-prev swiper-navBtn d-flex justify-content-center align-items-center fw-bold">
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonial -->
+
+        <!-- blog -->
+        <section class="blog_section container ps-0 mt-5 mb-5 py-4 mx-auto">
+            <h3 class="text-center my-2"><span class="linearcolor fw-bold">Our Latest Blog</span></h3>
+            <h2 class="text-center mb-5">Latest articles directly</h2>
+            <div class="blog d-flex justify-content-center align-items-center flex-md-row flex-column"
+                data-aos="zoom-in" data-aos-duration="1000">
+                <div class="card">
+                    <div class="card-img-holder mb-3">
+                        <img src="assets/img/blog/card1.png" alt="Blog image" class="blogimg">
+                    </div>
+                    <span class="cardbox px-2 my-1">Technology</span>
+
+
+                    <p class="description">
+                    <h4 class="blog-title fw-bold">The Impact of Technology on the Workplace: How Technology is Changing
+                    </h4>
+                    </p>
+                    <div class="options">
+
+                        <img src="assets/img/blog/img1.png" alt="" class="blog_profile_img">
+                        <span class="mx-2 blog_name">
+                            Tracey Wilson</span><span class="mx-2" class="blog-time">
+                            August 20, 2022 </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img-holder mb-3">
+                        <img src="assets/img/blog/card2.png" alt="Blog image" class="blogimg">
+                    </div>
+                    <span class="cardbox px-2 my-1">Technology</span>
+
+
+                    <p class="description">
+                    <h4 class="blog-title fw-bold">The Impact of Technology on the Workplace: How Technology is Changing
+                    </h4>
+                    </p>
+                    <div class="options">
+
+                        <img src="assets/img/blog/img2.png" alt="" class="blog_profile_img">
+                        <span class="mx-2 blog_name">
+                            Jason Francisco</span><span class="mx-2" class="blog-time">
+                            August 20, 2022 </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img-holder mb-3">
+                        <img src="assets/img/blog/card3.png" alt="Blog image" class="blogimg">
+                    </div>
+                    <span class="cardbox px-2 my-1">Technology</span>
+
+
+                    <p class="description">
+                    <h4 class="blog-title fw-bold">The Impact of Technology on the Workplace: How Technology is Changing
+                    </h4>
+                    </p>
+                    <div class="options">
+
+                        <img src="assets/img/blog/img3.png" alt="" class="blog_profile_img">
+                        <span class="mx-2 blog_name">
+                            Elizabeth Slavin</span><span class="mx-2" class="blog-date">
+                            August 20, 2022 </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center my-3">
+                <a href="" class="text-decoration-none btn ">View all Post</a>
+            </div>
+        </section>
+        <!-- blog -->
+
+    </main>
+
+
+    <!-- footer -->
+    <footer class="container-fluid footer">
+        <!-- wp button -->
+        <div>
+            <a href="https://wa.me/7339015392" class="btn-whatsapp-pulse">
+                <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
+            </a>
+
+        </div>
+        <section class="text-white text-lg-start">
+            <!-- Grid container -->
+            <div class="container-lg-fluid container p-4">
+                <!--Grid row-->
+                <div class="d-flex justify-content-between mt-4 flex-lg-row flex-column">
+                    <!--Grid column-->
+                    <div class="col-lg-3 mb-4 mb-md-0 me-3 ">
+                        <img src="footer_logo.png" alt="" class="img-fluid">
+
+                        <p class="my-2">
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            voluptatum deleniti atque corrupti.
+                        </p>
+
+                        <div class="my-3">
+                            <!-- Facebook -->
+                            <a type="button" class="btn "><i class="fa-brands fa-facebook-f"></i></a>
+                            <!-- Twitter -->
+                            <a type="button" class="btn "> <i class="fa-brands fa-twitter"></i></a>
+                            <!-- linkedin -->
+                            <a type="button" class="btn "><i class="fa-brands fa-linkedin-in"></i></a>
+                            <!-- instagram -->
+                            <a type="button" class="btn "><i class="fa-brands fa-instagram"></i> </a>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3  mb-4 mb-md-0 mt-lg-2 my-2 my-lg-0">
+                        <h5 class="text-uppercase text-white mb-4 pb-1">Pages</h5>
+
+                        <ul class="">
+                            <li class="mb-3">
+                                <a href="index.html"><span class="ms-lg-0" style="color: #635bff;"> Home
+                                    </span> </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="product.html"><span class="ms-lg-0"> Product
+                                    </span> </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="about.html"><span class="ms-lg-0"> About Us
+                                    </span> </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="contact.html"><span class="ms-lg-0"> Contact Us
+                                    </span> </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4  mb-4 mb-md-0 mt-lg-2 my-2 my-lg-0">
+                        <h5 class="text-uppercase mb-4 text-white">Contact</h5>
+
+                        <ul class="list-unstyled">
+                            <li class="my-3">
+                                <p class=""><i class="fas fa-phone pe-2 text-white"></i>98438 10009, 98422
+                                    74786, 98427 90004</p>
+                            </li>
+                            <li class="my-3 d-flex">
+                                <p class=""> <i class="fas fa-envelope pe-2 mb-0 text-white"></i> legerysale@gmail.com
+                                </p>
+                            </li>
+                            <li class="d-flex flex-column">
+
+                                <span class="d-flex">
+                                    <i class="fas fa-map-marker-alt text-white  pe-2 mb-0 pt-1"></i>
+                                    <p class="ps-2">No, 28-29
+                                        gokul plaza, Eswaran Kovil Street, <br>(opp) Tiruppur Plywoods,
+                                        Tiruppur - 641 604</p>
+                                </span>
+                                <p class="ps-4  mt-3">713, M.T.P
+                                    Road, Near Chinthamani Signal,<br>
+                                    Coimbatore - 02</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2024 Copyright
+                <a class="text-white" href=""></a>
+            </div>
+            <!-- Copyright -->
+        </section>
+
+    </footer>
+    <!-- footer -->
+
+</body>
+<!-- All JS is here
+    ============================================ -->
+<!-- swiper js -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- jQuery JS -->
+<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+<!-- Popper JS -->
+<script src="assets/js/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Plugins JS -->
+<script src="assets/js/plugins.js"></script>
+<!-- Ajax Mail -->
+<script src="assets/js/ajax-mail.js"></script>
+<!-- Main JS -->
+<script src="assets/js/main.js"></script>
+
+<!-- animation  -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<script>
+    //  for navbar  
+    document.addEventListener('DOMContentLoaded', () => {
+        const settingsIcon = document.querySelector('.settings-icon');
+
+        settingsIcon.addEventListener('click', () => {
+            settingsIcon.classList.toggle('active');
+        });
+    });
+
+    // for dropdown icon change
+    document.querySelectorAll('.product_toggle_Button').forEach(button => {
+        button.addEventListener('click', function () {
+            // Find all icon elements within the button
+            const icon = this.querySelector('.icon');
+            var screenWidth = window.innerWidth;
+            // Determine the current state of the icon
+            const isChevronDown = icon.classList.contains('bi-chevron-compact-down');
+
+            if (screenWidth <= 992) {
+                // Toggle the clicked icon
+                if (isChevronDown) {
+                    icon.classList.remove('bi-chevron-compact-down');
+                    icon.classList.add('bi-chevron-compact-up');
+                } else {
+                    icon.classList.remove('bi-chevron-compact-up');
+                    icon.classList.add('bi-chevron-compact-down');
+                }
+            }
+        });
+
+    });
+
+
+    // for product dropdown hide or show
+    document.querySelectorAll('.product_toggle_Button').forEach(button => {
+        button.addEventListener('click', function () {
+            var targetDivId = this.getAttribute('data-target');
+            var div = document.getElementById(targetDivId);
+            var screenWidth = window.innerWidth;
+
+            if (screenWidth <= 992) { // Check if screen width is 992px or smaller
+                if (div.classList.contains('product_hide')) {
+                    div.classList.remove('product_hide');
+                    div.classList.add('product_show');
+                } else {
+                    div.classList.remove('product_show');
+                    div.classList.add('product_hide');
+                }
+            }
+        });
+    });
+
+    //  for testimonial
+    var swiper = new Swiper('.slide-content', {
+        slidesPerView: 3,
+        spaceBetween: 27,
+        loop: true,
+        centeredSlides: false,
+        grabCursor: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            dynamicBullets: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+            0: {
+                slidesPerView: 1, // 1 slide per view on small screens
+            },
+            720: {
+                slidesPerView: 2, // 2 slides per view on medium screens
+            },
+            1000: {
+                slidesPerView: 3, // 3 slides per view on larger screens
+            },
+        },
+    });
+
+</script>
+
+</html>
